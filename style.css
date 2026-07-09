@@ -1,0 +1,86 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+/* colors */
+--gold: #ffd400;
+--gold-hover: #ffdd32;
+--white: #fff;
+--black: #000;
+--red: #760031;
+
+/* font family */
+--font-title: "Inter", sans-serif;
+--font-text: "Roboto", sans-serif;
+}
+
+/* =========================================== */
+/* DEBUT HERO SECTION (navbar + header) 
+   APEMBET-ALECK Virgile Yann*/
+/* =========================================== */
+
+
+
+
+/* =========================================== */
+/* FIN HERO SECTION (navbar + header) */
+/* =========================================== */
+
+
+/* =========================================== */
+/* DEBUT SECTION NOS SERVICES
+   BOTOKO Steven */
+/* =========================================== */
+
+
+
+
+/* =========================================== */
+/* FIN SECTION NOS SERVICES  */
+/* =========================================== */
+
+
+/* =========================================== */
+/* DEBUT SECTION REALISATIONS/PORTOFOLIO
+   BOTOKO Steven */
+/* =========================================== */
+
+
+
+
+/* =========================================== */
+/* FIN SECTION REALISATIONS/PORTOFOLIO */
+/* =========================================== */
+
+
+/* =========================================== */
+/* DEBUT SECTION NOTRE EQUIPE
+   MOUKOUANGA TOMBET BRISSAM JOSUE */
+/* =========================================== */
+
+
+
+
+/* =========================================== */
+/* FIN SECTION NOTRE EQUIPE */
+/* =========================================== */
+
+
+/* =========================================== */
+/* DEBUT SECTION CONTACT (footer)
+   GOMA KETSIA */
+/* =========================================== */
+
+
+
+
+/* =========================================== */
+/* DEBUT SECTION CONTACT (footer) */
+/* =========================================== */
