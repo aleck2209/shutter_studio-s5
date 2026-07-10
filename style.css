@@ -60,13 +60,119 @@
 /* =========================================== */
 
 
-/* =========================================== */
 /* DEBUT SECTION NOTRE EQUIPE
-   MOUKOUANGA TOMBET BRISSAM JOSUE */
-/* =========================================== */
+   BRISSAM JOSUE */
+
+.team{
+   background: var(--black);
+   padding: 1rem;
+   margin-bottom: 2em;
+}
+
+.team-header{
+   text-align: center;
+   margin-bottom: 2rem;
+}
+
+.team-header h2{
+   font-size: 2rem;
+   font-family: var(--font-title);
+   font-weight: 700;
+   color: var(--gold);
+   margin-bottom: 1rem;
+}
+
+.team-header p{
+   font-size: 1rem;
+   font-family: var(--font-text);
+   font-weight: 400;
+   color: var(--white);
+   max-width: 700px;
+   margin: auto;
+   line-height: 1.6;
+}
+
+.team-container{
+   display: grid;
+   grid-template-columns: 1fr;
+   gap: 2rem;
+}
+
+.team-card{
+   background: var(--red);
+   border-radius: 12px;
+   padding: 2rem;
+   text-align: center;
+   transition: 0.3s;
+}
+
+.team-card:hover{
+    transform:translateY(-8px);
+}
+
+.team-card .fa-user{
+    font-size:4rem;
+    color:var(--gold);
+    margin-bottom:1rem;
+}
+
+.team-card h3{
+   font-size: 1.3rem;
+   font-family: var(--font-title);
+   color: var(--white);
+   margin-bottom: .5rem;
+}
 
 
+.team-card p{
+    font-size:1rem;
+    font-family:var(--font-text);
+    margin-bottom:1.5rem;
+    color:var(--white);
+}
 
+.team-social{
+   display: flex;
+   justify-content: center;
+   gap: 1rem;
+}
+
+.team-social a{
+   color: var(--gold);
+   font-size: 1.2rem;
+   transition: .3s;
+}
+
+.team-social a:hover{
+   color: var(--gold-hover);
+
+}
+
+/*======== TABLETE ======== */
+@media(min-width:768px){
+
+   .team{
+   padding:2rem 3rem;
+}
+
+.team-container{
+   grid-template-columns: repeat(2,1fr);
+
+}
+
+}
+
+/*======== ordinateur ======== */
+@media(min-width:1024px){
+
+   .team{
+      padding: 2rem 4rem;
+   }
+
+   .team-container{
+      grid-template-columns: repeat(4,1fr);
+   }
+}
 
 /* =========================================== */
 /* FIN SECTION NOTRE EQUIPE */
