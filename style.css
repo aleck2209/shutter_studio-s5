@@ -91,11 +91,13 @@
 .service-card h3 {
     margin-bottom: 15px;
 }
+.service-card h3 { font-family: var(--font-title); }
 
 
 .service-card p {
     color: #555;
     line-height: 1.6;
+    font-family: var(--font-text);
 }
 
 
@@ -127,9 +129,10 @@
     padding: 12px 25px;
     border: none;
     border-radius: 25px;
-    background-color: var(--black);
-    color: var(--white);
+   background-color: #eee;
+     color: var(--black);
     cursor: pointer;
+    font-family: var(--font-text)
 }
 
 
@@ -149,6 +152,7 @@
 .gallery-item {
     overflow: hidden;
     border-radius: 15px;
+    font-family: var(--font-text);
 }
 
 
@@ -178,8 +182,18 @@
     color: var(--black);
     text-decoration: none;
     border-radius: 30px;
+    font-family: var(--font-title);
+}
+@media (max-width: 992px) {
+  .services-container { grid-template-columns: repeat(2, 1fr); }
+  .gallery { grid-template-columns: repeat(2, 1fr); }
 }
 
+@media (max-width: 480px) {
+  .services-container { grid-template-columns: 1fr; }
+  .gallery { grid-template-columns: 1fr; }
+  .portfolio-nav { flex-wrap: wrap; }
+}
 
 /* =========================================== */
 /* FIN SECTION REALISATIONS/PORTOFOLIO */
