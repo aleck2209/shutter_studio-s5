@@ -1,191 +1,200 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 
 *,
 *::after,
 *::before {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 :root {
-/* colors */
---gold: #ffd400;
---gold-hover: #ffdd32;
---white: #fff;
---black: #000;
---red: #760031;
+  /* colors */
+  --gold: #ffd400;
+  --gold-hover: #ffdd32;
+  --white: #fff;
+  --black: #000;
+  --red: #760031;
 
-/* font family */
---font-title: "Inter", sans-serif;
---font-text: "Roboto", sans-serif;
+  /* font family */
+  --font-title: "Inter", sans-serif;
+  --font-text: "Roboto", sans-serif;
+}
+
+body {
+  background-color: var(--black);
 }
 
 /* =========================================== */
 /* DEBUT HERO SECTION (navbar + header) 
    APEMBET-ALECK Virgile Yann*/
 /* =========================================== */
+.hero-header {
+  height: 60vh;
+  background-color: var(--black);
+  color: var(--white);
+  font-family: var(--font-text);
+  margin-bottom: 2rem;
+}
 
+.hero-header-nav {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
 
+.hero-logo {
+   font-family: var(--font-title);
+}
 
+.gold {
+   color: var(--gold);
+}
+
+.hero-header {
+   
+}
 
 /* =========================================== */
 /* FIN HERO SECTION (navbar + header) */
 /* =========================================== */
-
 
 /* =========================================== */
 /* DEBUT SECTION NOS SERVICES
    BOTOKO Steven */
 /* =========================================== */
 
-
-
-
 /* =========================================== */
 /* FIN SECTION NOS SERVICES  */
 /* =========================================== */
-
 
 /* =========================================== */
 /* DEBUT SECTION REALISATIONS/PORTOFOLIO
    BOTOKO Steven */
 /* =========================================== */
 
-
-
-
 /* =========================================== */
 /* FIN SECTION REALISATIONS/PORTOFOLIO */
 /* =========================================== */
 
-
 /* DEBUT SECTION NOTRE EQUIPE
    BRISSAM JOSUE */
 
-.team{
-   background: var(--black);
-   padding: 1rem;
-   margin-bottom: 2rem;
+.team {
+  background: var(--black);
+  padding: 1rem;
+  margin-bottom: 2rem;
 }
 
-.team-header{
-   text-align: center;
-   margin-bottom: 2rem;
+.team-header {
+  text-align: center;
+  margin-bottom: 2rem;
 }
 
-.team-header h2{
-   font-size: 2rem;
-   font-family: var(--font-title);
-   font-weight: 700;
-   color: var(--gold);
-   margin-bottom: 1rem;
+.team-header h2 {
+  font-size: 2rem;
+  font-family: var(--font-title);
+  font-weight: 700;
+  color: var(--gold);
+  margin-bottom: 1rem;
 }
 
-.team-header p{
-   font-size: 1rem;
-   font-family: var(--font-text);
-   font-weight: 400;
-   color: var(--white);
-   max-width: 700px;
-   margin: auto;
-   line-height: 1.6;
+.team-header p {
+  font-size: 1rem;
+  font-family: var(--font-text);
+  font-weight: 400;
+  color: var(--white);
+  max-width: 700px;
+  margin: auto;
+  line-height: 1.6;
 }
 
-.team-container{
-   display: grid;
-   grid-template-columns: 1fr;
-   gap: 2rem;
+.team-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
 }
 
-.team-card{
-   background: var(--red);
-   border-radius: 12px;
-   padding: 2rem;
-   text-align: center;
-   transition: 0.3s;
+.team-card {
+  background: var(--red);
+  border-radius: 12px;
+  padding: 2rem;
+  text-align: center;
+  transition: 0.3s;
 }
 
-.team-card:hover{
-    transform:translateY(-8px);
+.team-card:hover {
+  transform: translateY(-8px);
 }
 
-.team-card .fa-user{
-    font-size:4rem;
-    color:var(--gold);
-    margin-bottom:1rem;
+.team-card .fa-user {
+  font-size: 4rem;
+  color: var(--gold);
+  margin-bottom: 1rem;
 }
 
-.team-card h3{
-   font-size: 1.3rem;
-   font-family: var(--font-title);
-   color: var(--white);
-   margin-bottom: .5rem;
+.team-card h3 {
+  font-size: 1.3rem;
+  font-family: var(--font-title);
+  color: var(--white);
+  margin-bottom: 0.5rem;
 }
 
-
-.team-card p{
-    font-size:1rem;
-    font-family:var(--font-text);
-    margin-bottom:1.5rem;
-    color:var(--white);
+.team-card p {
+  font-size: 1rem;
+  font-family: var(--font-text);
+  margin-bottom: 1.5rem;
+  color: var(--white);
 }
 
-.team-social{
-   display: flex;
-   justify-content: center;
-   gap: 1rem;
+.team-social {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
 }
 
-.team-social a{
-   color: var(--gold);
-   font-size: 1.2rem;
-   transition: .3s;
+.team-social a {
+  color: var(--gold);
+  font-size: 1.2rem;
+  transition: 0.3s;
 }
 
-.team-social a:hover{
-   color: var(--gold-hover);
-
+.team-social a:hover {
+  color: var(--gold-hover);
 }
 
 /*======== TABLETE ======== */
-@media(min-width:768px){
+@media (min-width: 768px) {
+  .team {
+    padding: 2rem 3rem;
+  }
 
-   .team{
-   padding:2rem 3rem;
-}
-
-.team-container{
-   grid-template-columns: repeat(2,1fr);
-
-}
-
+  .team-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 /*======== ordinateur ======== */
-@media(min-width:1024px){
+@media (min-width: 1024px) {
+  .team {
+    padding: 2rem 4rem;
+  }
 
-   .team{
-      padding: 2rem 4rem;
-   }
-
-   .team-container{
-      grid-template-columns: repeat(4,1fr);
-   }
+  .team-container {
+    grid-template-columns: repeat(4, 1fr);
+  }
 }
 
 /* =========================================== */
 /* FIN SECTION NOTRE EQUIPE */
 /* =========================================== */
 
-
 /* =========================================== */
 /* DEBUT SECTION CONTACT (footer)
    GOMA KETSIA */
 /* =========================================== */
-
-
-
 
 /* =========================================== */
 /* DEBUT SECTION CONTACT (footer) */
