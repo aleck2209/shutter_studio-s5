@@ -86,7 +86,7 @@
     gap: 50px;
     width: 100%;
     margin: 20px auto 0px;
-    padding: 0 100px;
+    padding: 2rem 4rem;
     background-color: var(--red);
 }
 .cont_coordonée{
@@ -100,8 +100,8 @@
     gap: 20px;
 }
 .cont_h2{
-    font-size: 1.2rem;
-    font-weight: 500;
+    font-size: 2rem;
+    font-weight: 700;
     color: var(--white);
     font-family: var(--font-title);
 }
@@ -121,16 +121,17 @@
     height: 70px;
     padding: 20px;
 }
-.cont_icon{
-    width: 40px;
-    height: 40px;
-    vertical-align: middle;
+.icone-doree {
+    color: var(--gold);
+    font-size: 20px;
+    vertical-align: middle;  
 }
 .cont_span1{
     display: flex;
     flex-direction: column;
     margin-left: 6px;
     font-family: var(--font-text);
+
 }
 .cont_a{
     text-decoration: none;
@@ -184,8 +185,8 @@ input[type="submit"]{
     border-radius: 5px;
 }
 .form_h2{
-    font-size: 1.2rem;
-    font-weight: 500;
+    font-size: 2rem;
+    font-weight: 700;
     color: var(--white);
     font-family: var(--font-title);
 }
